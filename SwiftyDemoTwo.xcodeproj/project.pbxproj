@@ -14,6 +14,7 @@
 		D0B7EC0E2B91AEF1007892A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B7EC0D2B91AEF1007892A8 /* ContentView.swift */; };
 		D0B7EC102B91AEF3007892A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B7EC0F2B91AEF3007892A8 /* Assets.xcassets */; };
 		D0B7EC132B91AEF3007892A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B7EC122B91AEF3007892A8 /* Preview Assets.xcassets */; };
+		D0B7EC182B91B52E007892A8 /* SwiftyDemoTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B7EC172B91B52E007892A8 /* SwiftyDemoTwo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		D0B7EC0D2B91AEF1007892A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D0B7EC0F2B91AEF3007892A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0B7EC122B91AEF3007892A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0B7EC172B91B52E007892A8 /* SwiftyDemoTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyDemoTwo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				D0B7EBF02B91AECE007892A8 /* SwiftyDemoTwo.h */,
+				D0B7EC172B91B52E007892A8 /* SwiftyDemoTwo.swift */,
 			);
 			path = SwiftyDemoTwo;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				TargetAttributes = {
 					D0B7EBEC2B91AECE007892A8 = {
 						CreatedOnToolsVersion = 15.0.1;
+						LastSwiftMigration = 1500;
 					};
 					D0B7EBF42B91AECE007892A8 = {
 						CreatedOnToolsVersion = 15.0.1;
@@ -258,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0B7EC182B91B52E007892A8 /* SwiftyDemoTwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +422,7 @@
 		D0B7EC002B91AECF007892A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -439,6 +445,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,6 +454,7 @@
 		D0B7EC012B91AECF007892A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -477,6 +485,7 @@
 		D0B7EC032B91AECF007892A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -492,6 +501,7 @@
 		D0B7EC042B91AECF007892A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
