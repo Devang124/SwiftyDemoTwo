@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.summary      = "A short description of SwiftyDemoTwo."
 
   spec.description  = <<-DESC
-This CocoaPods library helps you perform calculation.
+	This CocoaPods library helps you perform calculation.
                    DESC
 
   spec.homepage     = "https://github.com/Devang124/SwiftyDemoTwo"
@@ -18,7 +18,7 @@ This CocoaPods library helps you perform calculation.
   spec.ios.deployment_target = "12.1"
   spec.swift_version = "4.2"
 
-  spec.source       = { :git => "https://github.com/Devang124/SwiftyDemoTwo", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/Devang124/SwiftyDemoTwo.git", :tag => "#{spec.version}" }
 
   spec.source_files  =  "SwiftyDemoTwo/**/*.{h,m,swift}"
 
