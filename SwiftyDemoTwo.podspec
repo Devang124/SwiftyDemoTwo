@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "SwiftyDemoTwo"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "A short description of SwiftyDemoTwo."
 
   spec.description  = <<-DESC
